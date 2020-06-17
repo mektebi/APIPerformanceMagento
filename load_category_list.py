@@ -7,9 +7,6 @@ import urllib3
 urllib3.disable_warnings()
 
 class UserBehaviour(TaskSet) :
-    requestHeader = "uulbfv3bozwp0wbvyax39o0348elq21f"
-    token = ""
-    refresh_token = ""
 
     def on_start(self) :
         self.access_token = 'uulbfv3bozwp0wbvyax39o0348elq21f'
